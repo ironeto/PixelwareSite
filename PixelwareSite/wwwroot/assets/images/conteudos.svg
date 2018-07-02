@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve" width="512px" height="512px"><g><g>
+	<g>
+		<rect x="56" y="88" width="216" height="16" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="80" y="120" width="192" height="16" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="56" y="152" width="96" height="16" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="168" y="152" width="104" height="16" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="56" y="184" width="48" height="16" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="120" y="184" width="152" height="16" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M472,88H328V8c0-4.422-3.578-8-8-8H8C3.578,0,0,3.578,0,8v216c0,4.422,3.578,8,8,8h72v152c0,4.422,3.578,8,8,8h152v40h-56    c-4.422,0-8,3.578-8,8v32c0,4.422,3.578,8,8,8h192c4.422,0,8-3.578,8-8v-32c0-4.422-3.578-8-8-8h-56v-40h152c4.422,0,8-3.578,8-8    V96C480,91.578,476.422,88,472,88z M16,16h296v40H112V40c0-4.422-3.578-8-8-8H16V16z M16,216V48h80v16c0,4.422,3.578,8,8,8h208    v144H16z M368,448v16H192v-16h56c4.422,0,8-3.578,8-8v-48h48v48c0,4.422,3.578,8,8,8H368z M464,312h-16v16h16v48H96v-48h224v-16    H96v-80h224c4.422,0,8-3.578,8-8V104h136V312z" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M437.656,306.344L411.313,280l18.344-18.344c2.289-2.289,2.977-5.727,1.734-8.719C430.156,249.945,427.234,248,424,248    h-80c-4.422,0-8,3.578-8,8v80c0,3.234,1.945,6.156,4.938,7.391c3,1.242,6.43,0.555,8.719-1.734L368,323.313l26.344,26.344    c1.563,1.563,3.609,2.344,5.656,2.344s4.094-0.781,5.656-2.344l32-32C440.781,314.531,440.781,309.469,437.656,306.344z     M400,332.688l-26.344-26.344C372.094,304.781,370.047,304,368,304s-4.094,0.781-5.656,2.344L352,316.688V264h52.688    l-10.344,10.344c-3.125,3.125-3.125,8.188,0,11.313L420.688,312L400,332.688z" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="152" y="248" width="16" height="48" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="184" y="248" width="80" height="16" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="280" y="248" width="40" height="16" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="184" y="280" width="48" height="16" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="248" y="280" width="72" height="16" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="272" y="344" width="16" height="16" data-original="#000000" class="" fill="#24917A"/>
+	</g>
+</g></g> </svg>

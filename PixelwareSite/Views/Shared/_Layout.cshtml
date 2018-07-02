@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pixelware</title>
+    <link href="~/lib/toastr/toastr.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <!-- btn mobile e accordion - Informações de contato -->
+            <div class="collapse navbar-collapse" id="contactInfo">
+                <span class="titleContactInfo">Informações de contato</span>
+                <ul class="navbar-nav">
+                    <li class="foneWrap">
+                        <a href="tel:+551199999999" target="_blank"> <img src="assets/images/smartphone.svg" alt="Telefone"> +55 (11) 9999-9999 </a>
+                    </li>
+                    <li class="socialIconsFacebook">
+                        <a href="http://www.facebook.com/pixelware" target="_blank"> <img src="assets/images/socialMedia/facebook.svg" alt="Facebook"> </a>
+                    </li>
+                    <li class="socialIconsLinkedin">
+                        <a href="http://www.linkedin.com/pixelware" target="_blank"> <img src="assets/images/socialMedia/linkedin.svg" alt="Linkedin"> </a>
+                    </li>
+                    <li class="socialIconsTwitter">
+                        <a href="http://www.twitter.com/pixelware" target="_blank"> <img src="assets/images/socialMedia/twitter.svg" alt="Twitter"> </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"> <img src="assets/images/pixelware.svg" alt="Pixelware" class="logo"> </a>
+            <!-- btn mobile e accordion - Menu Principal -->
+            <button class="navbar-toggler" type="button"> <i class="material-icons">menu</i> </button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link" href="#home">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#servicos">Serviços</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#portfolio">Portólio</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#sobre-nos">Sobre nós</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#contato">Contato</a> </li>
+                </ul>
+                <button class="closeMenuMobile"> <i class="material-icons">close</i> </button> <img src="assets/images/pixelwarepb.svg" alt="Pixelware" class="logoMenu">
+            </div>
+        </div>
+    </nav>
+    @RenderBody()
+    <div class="contatoLastLine">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>pixelware® - todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/dist/jquery/jquery.js"></script>
+    <script src="~/dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/toastr/toastr.min.js"></script>
+    <script>
+        $('#web').on('click', function () {
+            $('.wrapBoard').css('background-image', 'url("assets/images/site.jpg")')
+        });
+        $('#ux').on('click', function () {
+            $('.wrapBoard').css('background-image', 'url("assets/images/ux.jpg")')
+        });
+        $('#design').on('click', function () {
+            $('.wrapBoard').css('background-image', 'url("assets/images/dinssauro.jpg")')
+        });
+        $('#logo').on('click', function () {
+            $('.wrapBoard').css('background-image', 'url("assets/images/logos.jpg")')
+        });
+        $('#video').on('click', function () {
+            $('.wrapBoard').css('background-image', 'url("assets/images/video.jpg")')
+        });
+        $('#conteudo').on('click', function () {
+            $('.wrapBoard').css('background-image', 'url("assets/images/socialMedia.jpg")')
+        });
+        $('.navbar-toggler').on('click', function () {
+            $('#mainMenu').addClass('show');
+            $('#mainMenu').removeClass('animatedOut');
+            $('#contactInfo').removeClass('show');
+            $('#mainMenu').addClass('animatedIn');
+        });
+        $('.closeMenuMobile').on('click', function () {
+            $('#mainMenu').removeClass('animatedIn');
+            $('#mainMenu').addClass('animatedOut');
+            $('#mainMenu').removeClass('show');
+        });
+        $('.contacInfo-toggler').on('click', function () {
+            $('#mainMenu').removeClass('show');
+            $('#mainMenu').addClass('animatedOut');
+        });
+        $('.nav-link').click(function () {
+            $('#mainMenu').addClass('animatedOut');
+        });
+        $('.mapWrap').click(function () {
+            $('#contactInfo').removeClass('show');
+        });
+        $('.socialIconsFacebook').click(function () {
+            $('#contactInfo').removeClass('show');
+        });
+        $('.socialIconsLinkedin').click(function () {
+            $('#contactInfo').removeClass('show');
+        });
+        $('.socialIconsTwitter').click(function () {
+            $('#contactInfo').removeClass('show');
+        });
+        $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function (event) {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: target.offset().top - 60
+                    }, 1000, function () {
+                        var $target = $(target);
+                        $target.focus();
+                        if ($target.is(":focus")) {
+                            return false;
+                        } else {
+                            $target.attr('tabindex', '-1');
+                            $target.focus();
+                        };
+                    });
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        function add_chatinline() {
+            var hccid = 97004490;
+            var nt = document.createElement("script");
+            nt.async = true;
+            nt.src = "https://mylivechat.com/chatinline.aspx?hccid=" + hccid;
+            var ct = document.getElementsByTagName("script")[0];
+            ct.parentNode.insertBefore(nt, ct);
+        }
+        add_chatinline();
+    </script>
+</body>
+</html>

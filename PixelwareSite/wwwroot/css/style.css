@@ -1,0 +1,1091 @@
+body {
+	font-family: 'Lato', sans-serif
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+	background: #fff;
+	position: fixed !important;
+	width: 100%;
+	height: 97px;
+	z-index: 99999;
+}
+
+.navbar-light .navbar-brand {
+	order: 1;
+	padding: 0;
+	margin: 0;
+	color: #e3e3e3;
+}
+
+.navbar-toggler,
+.contacInfo-toggler {
+	outline: initial
+}
+
+.navbar-toggler i,
+.contacInfo-toggler i {
+	color: #666 !important;
+	font-size: 28px;
+}
+
+.navbar-toggler {
+	order: 2;
+	border: 0;
+	padding: 0;
+}
+
+button.contacInfo-toggler {
+	order: 3;
+	border: 0;
+	background: initial;
+	padding: 7px 0 0;
+	outline: initial;
+	cursor: pointer
+}
+.wrapMkt{
+	border: 0px solid #00f;
+	margin-top: 80px;
+}
+.wrapMkt .bgAlinhado{
+	border: 0px solid #f00!important;
+}
+.wrapMkt .bgProjeto{
+	border: 0px solid #f0f!important;
+	margin-top: 30px!important;
+}
+#contactInfo .navbar-nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px
+}
+
+.mapWrap {
+	order: 1;
+	margin: 20px 30px;
+	text-align: center
+}
+
+.foneWrap {
+	order: 2;
+	width: 100%;
+	margin: 20px;
+	text-align: center
+}
+
+.socialIconsFacebook {
+	order: 3;
+	margin: 7px;
+	text-align: center
+}
+
+.socialIconsLinkedin {
+	order: 4;
+	margin: 7px
+}
+
+.socialIconsTwitter {
+	order: 5;
+	margin: 7px
+}
+
+.nav-link {
+	padding: 0 0 15px
+}
+
+#contactInfo .navbar-nav li a {
+	color: #ccc
+}
+
+#contactInfo .navbar-nav li a img {
+	width: 50px;
+	display: block;
+	margin: auto
+}
+
+.socialIcons {
+	display: inline-block
+}
+
+.titleContactInfo {
+	color: #ccc;
+	font-weight: 700;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 26px;
+	margin: 10px 0
+}
+
+#mainMenu {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background: #000;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0;
+	align-items: flex-start;
+	overflow: hidden;
+	padding-top: 20px !important
+}
+
+#mainMenu .nav-link {
+	color: #787878 !important;
+	font-weight: 700;
+	font-size: 14px;
+	margin: 0 0 0 35px;
+	text-transform: uppercase;
+	letter-spacing: -0.5px;
+}
+
+button.closeMenuMobile {
+	border: 0;
+	background: initial;
+	color: #ccc;
+	outline: initial;
+	cursor: pointer
+}
+
+.animatedIn {
+	padding: 0 15px !important;
+	transition: width .5s;
+	-webkit-transition: width .5s;
+	width: 85% !important
+}
+
+.animatedOut {
+	padding: 0 !important;
+	transition: width .5s;
+	-webkit-transition: width .5s;
+	width: 0 !important
+}
+
+.fullWidthContainerFbk {
+	background: url("../assets/images/fabrica-de-software.jpg") no-repeat center top;
+	background-size: cover;
+	width: 100%;
+	min-height: 740px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-start;
+	padding: 64px 0 0 15%;
+}
+.fullWidthContainerFbk .wrapTxt{
+	background: #00ca79;
+	color: #fff;
+	font-size: 48px;
+	font-weight: 300;
+	text-align: center;
+	padding: 0 15px;
+}
+.fullWidthContainerMkt {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-start;
+	position: relative
+}
+.fullWidthContainerMkt .wrapTxt{
+	background: #009cde;
+	color: #fff;
+	font-size: 48px;
+	font-weight: 300;
+	text-align: center;
+	padding: 0 15px;
+	position: absolute;
+	right: 10%;
+}
+
+.fullWidthContainerMkt div#carouselExampleIndicators {
+	width: 100%;
+	position: relative;
+}
+
+
+
+.bannerContainer {
+	background: url("../assets/images/banner/banner.jpg") no-repeat center bottom;
+	width: 100%;
+	height: 760px;
+	display: flex;
+	padding-top: 64px;
+}
+
+.bannerContainer .container {
+	border: 0 solid #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.bannerContainer .container h2 {
+	color: #0078aa;
+	font-size: 48px;
+	font-weight: 900;
+	justify-content: left;
+	width: 600px;
+	margin-top: 130px;
+	text-transform: uppercase;
+}
+
+.bannerContainer .container h2 .txtBannerSolucoes {
+	color: #00aa66;
+	/* order: 1; */
+	margin-right: 10px;
+}
+
+.bannerContainer .container h2 .txtBannerCustomizados {
+	color: #ccc;
+	order: 2
+}
+
+.bannerContainer .container h2 .txtBannerSobMedida {
+	color: #ccc;
+	order: 3;
+	margin-right: 10px
+}
+
+.bannerContainer .container h2 .txtBannerParaSeuNegocio {
+	color: #F85555;
+	order: 4
+}
+
+.bannerContainer .btnContact {
+	text-decoration: none;
+	background: #00a3ea;
+	color: #fff;
+	width: 235px;
+	height: 70px;
+	font-size: 18px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-top: 60px;
+	cursor: pointer;
+	border: 0;
+}
+
+.bannerContainer .btnContact span {
+	border: 0 solid #fff;
+	line-height: 65px
+}
+
+.bannerContainer .btnContact:hover {
+	background: #0078aa;
+}
+
+.oQueFazemosDeMelhorContainer {
+	padding-top: 85px;
+	padding-bottom: 45px
+}
+
+.oQueFazemosDeMelhorContainer h2 {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center
+}
+
+.oQueFazemosDeMelhorContainer h3 {
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	border: 0 solid #000;
+	width: 100%;
+	margin: 0 auto 60px;
+}
+
+.oQueFazemosDeMelhorContainer h3 .imgTitFabricaMkt{
+	max-width: 100%;
+}
+
+.oQueFazemosDeMelhorContainer p strong.subTitleHow {
+	color: #F85555;
+	font-size: 21px;
+	font-weight: 700;
+	display: block
+}
+
+.oQueFazemosDeMelhorContainer .col-md-6 {
+	display: flex;
+	flex-direction: column
+}
+
+.oQueFazemosDeMelhorContainer .col-md-6:last-child p {
+	position: relative;
+	z-index: 5;
+}
+
+.oQueFazemosDeMelhorContainer .col-md-6 img {
+	border: 0 solid #000;
+	width: 85%;
+	height: 45%;
+	margin: -35px auto;
+	opacity: .5;
+	position: relative
+}
+
+.fbkMKt .col-md-6 {
+	display: flex;
+	flex-direction: column
+}
+
+.fbkMKt .col-md-6:first-child p {
+	position: relative;
+	z-index: 5;
+	margin-top: 30px;
+}
+.fbkMKt .col-md-6:first-child img {
+	border: 0 solid #000;
+	/* width: 85%; */
+	/* height: 45%; */
+	margin: 100px auto -100px auto;
+	opacity: .5;
+	position: relative;
+}
+
+.fbkMKt .col-md-6:last-child p {
+	position: relative;
+	z-index: 5;
+	margin-top: 100px;
+}
+
+.fbkMKt .col-md-6 img {
+	border: 0 solid #000;
+	/* width: 85%; */
+	/* height: 45%; */
+	margin: -115px auto;
+	opacity: .5;
+	position: relative;
+}
+
+
+.fbkMKt.wrapMkt .col-md-6:first-child img {
+	border: 0 solid #000;
+	margin: 0px auto -100px auto;
+	opacity: .5;
+	position: relative;
+}
+
+.fbkMKt.wrapMkt .col-md-6:last-child img {
+    border: 0 solid #000;
+    margin: 0 auto -205px auto;
+    opacity: .5;
+    position: relative;
+}
+
+.portfolioContainer {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.portfolioContainer h2 {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center
+}
+.portfolioWrap{
+	border: 0px solid #f00;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+	.portfolioWrap li{
+		width: 23%;
+		height: 200px;
+		border: 0px solid #00f;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 1%;
+	}
+	.portfolioWrap li img{
+		width: 100%;
+	}
+.imgPortfolio{
+	border: 1px soliud #000;
+}
+.portfolioContainer h3 {
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	border: 0 solid #000;
+	width: 50%;
+	margin: 0 auto 60px
+}
+
+.portfolioContainer p {
+	text-align: center
+}
+
+.portfolioContainer p strong.subTitleHow {
+	color: #F85555;
+	font-size: 21px;
+	font-weight: 700;
+	display: block
+}
+
+.desenvolvimentoContainer {
+	padding-top: 45px;
+	padding-bottom: 75px
+}
+
+.desenvolvimentoContainer h2 {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center
+}
+
+.desenvolvimentoContainer h3 {
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	border: 0 solid #000;
+	width: 35%;
+	margin: 0 auto 60px
+}
+
+.desenvolvimentoContainer .col-md-6 p {
+	text-align: left
+}
+
+.desenvolvimentoContainer p strong.subTitleHow {
+	color: #F85555;
+	font-size: 21px;
+	font-weight: 700;
+	display: block
+}
+
+.textoCentralizado {
+	text-align: center;
+	margin-bottom: 50px
+}
+
+.mobileContent {
+	display: flex;
+	height: 120px;
+	margin-bottom: 20px
+}
+
+.mobileContent ul {
+	text-align: right;
+	list-style: none;
+	margin: 5px 10px 0 0;
+	font-size: 13px;
+}
+
+.mobileContent img {
+	width: 30%
+}
+
+.cloudContent {
+	display: flex;
+	flex-direction: row-reverse;
+	height: 120px;
+	margin-bottom: 20px
+}
+
+.cloudContent ul {
+	text-align: left;
+	list-style: none;
+	margin: 0px;
+	font-size: 13px;
+}
+
+.cloudContent img {
+	width: 30%
+}
+
+.sobrePixelwareContainer {
+	padding-top: 85px;
+	padding-bottom: 45px;
+	background: url(assets/images/arm-up.png) bottom left no-repeat #5F5F60;
+	color: #ccc
+}
+
+.sobrePixelwareContainer h2 {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center
+}
+
+.sobrePixelwareContainer h3 {
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	border: 0 solid #000;
+	width: 50%;
+	margin: 0 auto 60px
+}
+
+.sobrePixelwareContainer p strong.subTitleHow {
+	color: #F85555;
+	font-size: 21px;
+	font-weight: 700;
+	display: block
+}
+
+.sobrePixelwareContainer .col-md-6 {
+	display: flex;
+	flex-direction: column
+}
+
+.sobrePixelwareContainer .col-md-6:last-child p {
+	text-align: right;
+	position: relative;
+	z-index: 5
+}
+
+.sobrePixelwareContainer .col-md-6 img {
+	border: 0 solid #000;
+	width: 45%;
+	height: auto;
+	margin: -35px auto;
+	opacity: .5;
+	position: relative
+}
+
+.contatoContainer {
+	padding-top: 85px;
+	padding-bottom: 45px;
+	background: #20252b;
+	color: #ccc;
+}
+
+.contatoContainer h2 {
+	font-size: 36px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.contatoContainer h3 {
+	font-size: 24px;
+	font-weight: 300;
+	border: 0 solid #000;
+	margin: 0 auto 60px;
+}
+
+.contatoContainer p strong.subTitleHow {
+	color: #F85555;
+	font-size: 21px;
+	font-weight: 700;
+	display: block
+}
+
+.contatoContainer .col-md-6 {
+	display: flex;
+	flex-direction: column
+}
+
+.contatoContainer .col-md-6:last-child p {
+	text-align: right;
+	position: relative;
+	z-index: 5
+}
+
+.contatoContainer .col-md-6 img {
+	border: 0 solid #000;
+	width: 45%;
+	height: auto;
+	margin: -35px auto;
+	opacity: .5;
+	position: relative
+}
+
+.contactForm .form-control {
+	background: #686868;
+	color: #ccc;
+	margin: 10px 0 20px;
+	border: 0;
+	outline: initial
+}
+
+.contactForm .form-control::placeholder {
+	color: #9B9B9B
+}
+
+.contactForm button {
+	border: 0;
+	width: 100%;
+	height: 45px;
+	color: #fff;
+	background: #00abc9;
+	cursor: pointer
+}
+
+.contactForm button:hover {
+	background: #0092ac
+}
+
+.logoMenu {
+	display: none
+}
+
+.logo {
+	max-width: 255px;
+}
+
+.icoBtn {
+	width: 30px;
+	margin-right: 15px;
+}
+
+.disclaimer {
+	font-size: 30px;
+	color: #575757;
+	font-weight: 300;
+	margin: 60px 0 0 0;
+}
+.tituloSecao{
+	text-transform: uppercase;
+	color: #323840;
+}
+.bordaTituloSecao{
+	border-bottom: 3px solid #00a3ea;
+	display: block;	
+	width: 100px;
+	margin: 0 auto 20px auto;
+}
+.bordaTituloSecaoContato{
+	border-bottom: 3px solid #00a3ea;
+	display: block;	
+	width: 100px;
+	margin: 0 0 20px 0;
+}
+.subtituloSecao{
+	color: #6b6e70;
+	font-size: 30px!important;
+	font-weight: 300;
+	padding-top: 60px;
+	display: block;
+	margin-bottom: 15px!important;
+}
+.bordaSubtituloSecaoFabrica{
+	border-bottom: 2px solid #19b393;
+	display: block;
+	width: 100px;
+	margin: 0 auto 60px auto;
+}
+.bordaSubtituloSecaoMkt{
+	border-bottom: 2px solid #00a3ea;
+	display: block;
+	width: 100px;
+	margin: 0 auto 60px auto;
+}
+.txtOQueFazemosDeMelhor{
+	margin-top: 80px;
+	margin-bottom: -30px;
+	z-index: 9999;
+}
+.txtOQueFazemosDeMelhor strong, .txtFabricaMkt strong{
+	font-size: 21px;
+}
+.imgBrainStorm{
+	margin-top: 50px!important;
+	margin-bottom: -140px!important;
+}
+.informes{
+	color: #494949;
+	font-size: 24px;
+	text-align: center;
+	font-weight: 500;
+}
+.centraliza{
+	display: block;
+	margin: auto;
+}
+.espacamento20{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.espacamento50{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.espacamento80{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.img-responsive{
+	max-width: 100%;
+}
+.imgFabricaSoftware{
+	border: 1px solid #000;
+	width: 100%!important;
+	height: initial!important;
+	margin: 0!important;
+	opacity: 1!important;
+}
+.listaJobs{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.icoJobsFabrica{
+	width: 70px;
+	margin: auto;
+}
+.wrapMktWork{
+	border: 0px solid #000;
+	display: flex;
+	flex-direction: row;
+}
+.wrapBoard{
+	background: #ccc;
+	height: 500px;
+	width: 70%;
+	background: url("../assets/images/socialMedia.jpg");
+	background-size: cover!important;
+}
+.wrapBtns{
+	background: #f4f4f4;
+	height: 500px;
+	width: 30%;
+}
+.wrapBtns ul{
+	list-style: none;
+	margin: 0 0 0 -43px;
+	padding: 0;
+}
+.wrapBtns ul li{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.wrapBtns ul li span{
+	text-transform: uppercase;
+	color: #0078aa;
+	font-weight: 700;
+	display: block;
+	padding-left: 10px;
+}
+
+.lnkMktShowCase{
+	background: #0078aa;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;	
+	color: #fff;
+	margin: 4px 0 10px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.lnkMktShowCase:hover{
+	background: #7ad3fa;
+	cursor: pointer;
+}
+.lnkMktShowCase img{
+	width: 40px;
+}
+
+/* staf */
+.stafWrap{
+	background: #f7f7f7;
+	margin-top: 90px;
+	padding: 15px;
+	text-align: center
+	}
+.stafWrap .avatar{
+	width: 100px;
+	margin: -60px auto 0 auto;	
+	position: relative;
+}
+.stafWrap h2.nome {
+	padding: 70px 0 0px 0;
+	font-size: 21px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.stafWrap h4.funcao {
+	font-size: 18px;
+	padding: 0 0 20px 0;	
+	text-align: center;
+	color: #00abc9;
+}
+.stafWrap .resume {
+	font-style: italic;
+}
+.stafWrap .socialWrap{
+	border: 0px solid #f00;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end
+}
+	.stafWrap .socialWrap img{
+		width: 30px;
+		margin: 7px;
+	}
+
+.logoContato{
+	margin-top: 35px;
+}
+.contatoLastLine{
+	background: #1c2025;
+	color: #aaaaaa;
+	text-transform: uppercase;
+	padding-top: 12px;
+}
+/* Carousel */
+.carousel-indicators {
+	top: 60px;
+}
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+}
+.carousel-indicators .active {
+	background-color: #009cde;
+}
+
+@media(min-width: 992px) {
+	.contacInfo-toggler {
+		display: none
+	}
+	.navbar-light .navbar-brand {
+		order: 1
+	}
+	#contactInfo {
+		display: none !important
+	}
+	#mainMenu {
+		order: 2;
+		display: flex !important;
+		justify-content: flex-end !important;
+		position: relative !important;
+		background: transparent !important;
+		padding: 0 !important
+	}
+	.closeMenuMobile {
+		display: none
+	}
+	.nav-link {
+		padding: 0
+	}
+	#mainMenu .nav-link:hover {
+		color: #00a3ea !important
+	}
+	.infoContatoWrap h3 {
+		font-weight: 700;
+		margin: 30px auto 15px;
+		text-align: left;
+		font-size: 18px;
+		width: 100%
+	}
+	.infoContatoWrap img {
+		width: 16% !important;
+		margin: 0 10px 0 0 !important;
+		border: 0 solid #000;
+		opacity: 1 !important
+	}
+	.infoContatoWrap a {
+		font-size: 21px;
+		text-align: center;
+		color: #ccc;
+		display: flex;
+		align-items: center;
+		font-weight: 300;
+		height: 50px;
+		line-height: 60px
+	}
+	.infoContatoWrap ul {
+		list-style: none;
+		margin: 0;
+		display: flex;
+		padding: 0
+	}
+	.infoContatoWrap ul li {
+		width: 40px;
+		margin: 7px
+	}
+	.infoContatoWrap ul li a img {
+		width: 100% !important;
+		display: block;
+		height: 50px !important;
+		margin: 0
+	}
+}
+
+@media(max-width: 991px) {
+	nav.navbar.navbar-expand-lg.navbar-light {
+		background: #fff !important;
+	}
+	.wrapMktWork{
+		border: 1px solid #Ccc;
+		display: flex;
+		flex-direction: column;
+	}
+	.portfolioWrap{
+		justify-content: center;
+	}
+	.portfolioWrap li {
+		width: 35%;
+		height: 150px;
+	}
+	.bordaTituloSecaoContato{
+		margin: 0 auto 20px auto;
+	}
+	.stafWrap .avatar{
+		width: 120px;
+		margin: -80px auto;
+	}
+	.wrapBoard{
+		background: #ccc;
+		height: 300px;
+		width: 100%;
+		background-position: center center;
+		background-size: cover;
+	}
+	.wrapBtns{
+		background: #fff;
+		height: 50px;
+		width: 100%;
+		padding-top: 5px;
+	}	
+	.wrapBtns ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin: 0;
+	}
+	.wrapBtns ul li a{
+		margin: 0;
+		width: 40px;
+		height: 40px;
+	}
+	.wrapBtns ul li a img{
+		width: 25px;
+	}
+	.wrapBtns ul li span{
+		display: none;
+	}
+
+	.logoMenu {
+		display: block;
+		position: absolute;
+		bottom: 20px;
+		margin: auto;
+		width: 110px !important;
+		max-width: 50%;
+	}
+	.img-mkt{
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	.logo {
+		max-width: 225px;
+	}
+	.disclaimer {
+		display: none;
+	}
+
+	.bannerContainer{
+		height: 500px;
+	}
+	.bannerContainer .btnContact {
+		text-decoration: none;
+		background: #00a3ea;
+		color: #fff;
+		width: 235px;
+		height: 70px;
+		font-size: 18px;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		margin: 20px auto;
+		cursor: pointer;
+		border: 0;
+	}
+	.bannerContainer .container h2 {
+		display: block;
+		text-align: center;
+		margin-top: 80px;
+		width: 100%
+	}
+	.bannerContainer .container h2 .txtBannerSolucoes {
+		color: #00aa66;
+		display: block;
+	}
+	.bannerContainer .container h2 .txtBannerCustomizados {
+		color: #ccc;
+		display: block
+	}
+	.bannerContainer .container h2 .txtBannerSobMedida {
+		color: #ccc;
+		display: block
+	}
+	.bannerContainer .container h2 .txtBannerParaSeuNegocio {
+		color: #ccc;
+		display: block
+	}
+	h2 {
+		font-size: 36px !important;
+		text-align: center
+	}
+	h3 {
+		font-size: 28px !important;
+		text-align: center
+	}
+	p {
+		font-size: 21px !important;
+		text-align: center !important
+	}
+	.oQueFazemosDeMelhorContainer h2 {
+		width: 100%
+	}
+	.oQueFazemosDeMelhorContainer h3 {
+		width: 100% !important
+	}
+	.oQueFazemosDeMelhorContainer p {
+		color: #999;
+		margin-bottom: 50px
+	}
+	.oQueFazemosDeMelhorContainer .col-md-6 img {
+		display: none
+	}
+	.portfolioContainer h3 {
+		width: 80%
+	}
+	.portfolioContainer p {
+		margin-bottom: 50px
+	}
+	.desenvolvimentoContainer h3 {
+		width: 90%
+	}
+	.desenvolvimentoContainer p {
+		margin-bottom: 50px
+	}
+	.sobrePixelwareContainer h3 {
+		width: 85%
+	}
+	.contatoContainer h3 {
+		width: 70%
+	}
+	.contactForm .form-control {
+		font-size: 21px
+	}
+	iframe {
+		display: none
+	}
+	.infoContatoWrap {
+		display: none
+	}
+	.fullWidthContainerFbk{
+		padding: 0;
+		align-items: initial;
+	}
+	.fbkMKt .col-md-6 img{
+		display: none;
+	}
+	.fullWidthContainerMkt .wrapTxt{
+		width: 100%;
+		right: 0;
+		position: relative;
+	}
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelwareSite", "PixelwareSite\PixelwareSite.csproj", "{8378B8AE-E576-4926-B553-F74992EDBACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8378B8AE-E576-4926-B553-F74992EDBACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8378B8AE-E576-4926-B553-F74992EDBACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8378B8AE-E576-4926-B553-F74992EDBACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8378B8AE-E576-4926-B553-F74992EDBACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F128063-AB1B-4AEF-A27F-9BE85F401971}
+	EndGlobalSection
+EndGlobal
