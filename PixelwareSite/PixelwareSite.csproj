@@ -5,13 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="wwwroot\dist\**" />
-    <Content Remove="wwwroot\dist\**" />
-    <EmbeddedResource Remove="wwwroot\dist\**" />
-    <None Remove="wwwroot\dist\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="MailKit" Version="2.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
   </ItemGroup>
@@ -68,6 +61,21 @@
     <None Include="wwwroot\assets\images\ux.jpg.old" />
     <None Include="wwwroot\assets\images\video-player.svg" />
     <None Include="wwwroot\assets\images\video.jpg.old" />
+    <None Include="wwwroot\dist\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\dist\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\dist\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\dist\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\dist\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\dist\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\dist\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\dist\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\dist\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\dist\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\dist\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\dist\bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\dist\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\dist\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\dist\jquery\jquery.js" />
   </ItemGroup>
 
 </Project>
