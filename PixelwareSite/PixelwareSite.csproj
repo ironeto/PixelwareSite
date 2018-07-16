@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\dist\**" />
+    <Content Remove="wwwroot\dist\**" />
+    <EmbeddedResource Remove="wwwroot\dist\**" />
+    <None Remove="wwwroot\dist\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MailKit" Version="2.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
   </ItemGroup>
@@ -14,7 +21,53 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\js\Pixelware\" />
+    <Folder Include="wwwroot\assets\images\avatar\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\images\arm-up.svg" />
+    <None Include="wwwroot\assets\images\arm_up.svg" />
+    <None Include="wwwroot\assets\images\brainstorm.svg" />
+    <None Include="wwwroot\assets\images\brainstorm2.svg" />
+    <None Include="wwwroot\assets\images\brainstorm3.svg" />
+    <None Include="wwwroot\assets\images\business-card.svg" />
+    <None Include="wwwroot\assets\images\cloud.svg" />
+    <None Include="wwwroot\assets\images\computer-graphic.svg" />
+    <None Include="wwwroot\assets\images\computer.svg" />
+    <None Include="wwwroot\assets\images\content.svg" />
+    <None Include="wwwroot\assets\images\content2.svg" />
+    <None Include="wwwroot\assets\images\conteudos.svg" />
+    <None Include="wwwroot\assets\images\criacao-e-marketing.jpg.old" />
+    <None Include="wwwroot\assets\images\desenvolvimento-de-api.svg" />
+    <None Include="wwwroot\assets\images\fabrica-de-software.jpg.new" />
+    <None Include="wwwroot\assets\images\facebook.svg" />
+    <None Include="wwwroot\assets\images\ferramentas-cloud.svg" />
+    <None Include="wwwroot\assets\images\game-developing.svg" />
+    <None Include="wwwroot\assets\images\infraestrutura.svg" />
+    <None Include="wwwroot\assets\images\light-bulb.svg" />
+    <None Include="wwwroot\assets\images\linkedin.svg" />
+    <None Include="wwwroot\assets\images\map-location.svg" />
+    <None Include="wwwroot\assets\images\maps-and-flags.svg" />
+    <None Include="wwwroot\assets\images\mobile.svg" />
+    <None Include="wwwroot\assets\images\pixelware.svg" />
+    <None Include="wwwroot\assets\images\pixelwarepb.svg" />
+    <None Include="wwwroot\assets\images\site.jpg.old" />
+    <None Include="wwwroot\assets\images\site.rar" />
+    <None Include="wwwroot\assets\images\smartphone.svg" />
+    <None Include="wwwroot\assets\images\smartphone_1.svg" />
+    <None Include="wwwroot\assets\images\socialMedia.jpg.old" />
+    <None Include="wwwroot\assets\images\socialMedia\facebook.svg" />
+    <None Include="wwwroot\assets\images\socialMedia\linkedin.svg" />
+    <None Include="wwwroot\assets\images\socialMedia\twitter.svg" />
+    <None Include="wwwroot\assets\images\suporte-multilingue.svg" />
+    <None Include="wwwroot\assets\images\teacher.svg" />
+    <None Include="wwwroot\assets\images\telephone-receiver-with-circular-arrows.svg" />
+    <None Include="wwwroot\assets\images\timeline.png.old" />
+    <None Include="wwwroot\assets\images\twitter.svg" />
+    <None Include="wwwroot\assets\images\ux-design.svg" />
+    <None Include="wwwroot\assets\images\ux.jpg.old" />
+    <None Include="wwwroot\assets\images\video-player.svg" />
+    <None Include="wwwroot\assets\images\video.jpg.old" />
   </ItemGroup>
 
 </Project>

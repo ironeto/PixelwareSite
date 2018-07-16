@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Pixelware</title>
     <link href="~/lib/toastr/toastr.css" rel="stylesheet" />
+
+    <title>Pixelware</title>
 </head>
 <body>
     <!-- Header -->
@@ -19,6 +20,9 @@
             <div class="collapse navbar-collapse" id="contactInfo">
                 <span class="titleContactInfo">Informações de contato</span>
                 <ul class="navbar-nav">
+                    <li class="mapWrap">
+                        <a href="https://www.google.com/maps/place/Rua+Itapacura%C3%AD,+325+-+Para%C3%ADso+do+Morumbi,+S%C3%A3o+Paulo+-+SP,+05705-240/@@-23.6254862,-46.7250702,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5130b7dd69f7:0xe9346baaf0811455!8m2!3d-23.6254862!4d-46.7228815" target="_blank"> <img src="assets/images/maps-and-flags.svg" alt="Endereço"> Rua Itapacuraí, 325 - Paraíso do Morumbi - 05705-240 </a>
+                    </li>
                     <li class="foneWrap">
                         <a href="tel:+551199999999" target="_blank"> <img src="assets/images/smartphone.svg" alt="Telefone"> +55 (11) 9999-9999 </a>
                     </li>
@@ -50,37 +54,11 @@
         </div>
     </nav>
     @RenderBody()
-    <div class="contatoLastLine">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p>pixelware® - todos os direitos reservados</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="~/dist/jquery/jquery.js"></script>
-    <script src="~/dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
     <script src="~/lib/toastr/toastr.min.js"></script>
+
     <script>
-        $('#web').on('click', function () {
-            $('.wrapBoard').css('background-image', 'url("assets/images/site.jpg")')
-        });
-        $('#ux').on('click', function () {
-            $('.wrapBoard').css('background-image', 'url("assets/images/ux.jpg")')
-        });
-        $('#design').on('click', function () {
-            $('.wrapBoard').css('background-image', 'url("assets/images/dinssauro.jpg")')
-        });
-        $('#logo').on('click', function () {
-            $('.wrapBoard').css('background-image', 'url("assets/images/logos.jpg")')
-        });
-        $('#video').on('click', function () {
-            $('.wrapBoard').css('background-image', 'url("assets/images/video.jpg")')
-        });
-        $('#conteudo').on('click', function () {
-            $('.wrapBoard').css('background-image', 'url("assets/images/socialMedia.jpg")')
-        });
         $('.navbar-toggler').on('click', function () {
             $('#mainMenu').addClass('show');
             $('#mainMenu').removeClass('animatedOut');
